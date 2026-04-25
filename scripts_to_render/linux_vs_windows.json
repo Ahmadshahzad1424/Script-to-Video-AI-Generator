@@ -1,0 +1,9 @@
+[
+  {"character":"Alex","text":"[confident] Linux gives full control to developers.","emotion":"confident"},
+  {"character":"Sarah","text":"[mocking] Windows is easier for most users.","emotion":"mocking"},
+  {"character":"Alex","text":"[assertive] Open-source means transparency.","emotion":"assertive"},
+  {"character":"Sarah","text":"[sharp] Compatibility matters more.","emotion":"sharp"},
+  {"character":"Alex","text":"[intense] Servers run on Linux for a reason.","emotion":"intense"},
+  {"character":"Sarah","text":"[confident] Desktops run on Windows for a reason.","emotion":"confident"},
+  {"character":"Alex","text":"[challenging] Control or convenience?","emotion":"challenging"}
+]

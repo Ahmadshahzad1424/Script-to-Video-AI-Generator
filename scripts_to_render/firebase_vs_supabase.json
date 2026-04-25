@@ -1,0 +1,9 @@
+[
+  {"character":"Alex","text":"[confident] Firebase is fast and easy to start.","emotion":"confident"},
+  {"character":"Sarah","text":"[mocking] And locks you into Google.","emotion":"mocking"},
+  {"character":"Alex","text":"[assertive] Realtime features are built-in.","emotion":"assertive"},
+  {"character":"Sarah","text":"[sharp] Supabase gives SQL flexibility.","emotion":"sharp"},
+  {"character":"Alex","text":"[intense] Firebase scales instantly.","emotion":"intense"},
+  {"character":"Sarah","text":"[confident] Supabase feels more open.","emotion":"confident"},
+  {"character":"Alex","text":"[provocative] Convenience or control?","emotion":"provocative"}
+]

@@ -1,0 +1,9 @@
+[
+  {"character":"Alex","text":"[confident] Node.js handles massive concurrency easily.","emotion":"confident"},
+  {"character":"Sarah","text":"[skeptical] Until your code becomes callback chaos.","emotion":"skeptical"},
+  {"character":"Alex","text":"[assertive] Async power beats blocking frameworks.","emotion":"assertive"},
+  {"character":"Sarah","text":"[calm] Django gives structure out of the box.","emotion":"calm"},
+  {"character":"Alex","text":"[intense] Real-time apps? Node wins instantly.","emotion":"intense"},
+  {"character":"Sarah","text":"[sharp] Secure backend? Django wins instantly.","emotion":"sharp"},
+  {"character":"Alex","text":"[provocative] So… speed or structure?","emotion":"provocative"}
+]

@@ -1,0 +1,28 @@
+# API Keys and Secrets (CRITICAL)
+.env
+
+# Large Media Folders (Save space)
+data/audio/*
+data/videos/*
+!data/audio/.gitkeep
+!data/videos/.gitkeep
+
+# Python Junk
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# OS Junk
+.DS_Store
+Thumbs.db
+
+# Test Artifacts (Optional, but keeps repo clean)
+tests/__pycache__/
+production_log.json

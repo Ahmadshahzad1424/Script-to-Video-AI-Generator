@@ -1,0 +1,9 @@
+[
+  {"character":"Alex","text":"[confident] AI is the future of programming.","emotion":"confident"},
+  {"character":"Sarah","text":"[mocking] Websites still run the world.","emotion":"mocking"},
+  {"character":"Alex","text":"[intense] Automation will replace traditional coding.","emotion":"intense"},
+  {"character":"Sarah","text":"[sharp] Users still need interfaces.","emotion":"sharp"},
+  {"character":"Alex","text":"[assertive] AI builds smarter systems.","emotion":"assertive"},
+  {"character":"Sarah","text":"[confident] Web builds usable systems.","emotion":"confident"},
+  {"character":"Alex","text":"[challenging] Intelligence or usability—choose.","emotion":"challenging"}
+]

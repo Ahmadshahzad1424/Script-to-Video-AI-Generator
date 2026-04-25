@@ -1,0 +1,9 @@
+[
+  {"character":"Alex","text":"[confident] Java runs everywhere. Enterprise loves it.","emotion":"confident"},
+  {"character":"Sarah","text":"[mocking] And takes forever to write simple things.","emotion":"mocking"},
+  {"character":"Alex","text":"[assertive] Stability matters more than speed of typing.","emotion":"assertive"},
+  {"character":"Sarah","text":"[sharp] Startups need speed, not ceremony.","emotion":"sharp"},
+  {"character":"Alex","text":"[intense] Banking systems trust Java, not experiments.","emotion":"intense"},
+  {"character":"Sarah","text":"[confident] AI and scripts? Python dominates.","emotion":"confident"},
+  {"character":"Alex","text":"[challenging] So… reliability or rapid results?","emotion":"challenging"}
+]

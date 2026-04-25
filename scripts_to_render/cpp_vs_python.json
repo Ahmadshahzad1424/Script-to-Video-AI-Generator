@@ -1,0 +1,37 @@
+[
+  {
+    "character": "Alex",
+    "text": "[confident] C++ is insanely fast. Python can't compete.",
+    "emotion": "confident"
+  },
+  {
+    "character": "Sarah",
+    "text": "[calm] Sure, but Python gets things done faster.",
+    "emotion": "calm"
+  },
+  {
+    "character": "Alex",
+    "text": "[intense] Speed matters in real systems.",
+    "emotion": "intense"
+  },
+  {
+    "character": "Sarah",
+    "text": "[sharp] Productivity matters more in startups.",
+    "emotion": "sharp"
+  },
+  {
+    "character": "Alex",
+    "text": "[assertive] Game engines, operating systems—C++ dominates.",
+    "emotion": "assertive"
+  },
+  {
+    "character": "Sarah",
+    "text": "[confident] AI, automation, scripting—Python dominates.",
+    "emotion": "confident"
+  },
+  {
+    "character": "Alex",
+    "text": "[challenging] So… speed or simplicity? Pick your weapon.",
+    "emotion": "challenging"
+  }
+]

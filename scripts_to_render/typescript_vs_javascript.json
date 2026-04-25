@@ -1,0 +1,9 @@
+[
+  {"character":"Alex","text":"[confident] TypeScript prevents costly bugs.","emotion":"confident"},
+  {"character":"Sarah","text":"[mocking] Or slows you with types everywhere.","emotion":"mocking"},
+  {"character":"Alex","text":"[assertive] Large apps need strict typing.","emotion":"assertive"},
+  {"character":"Sarah","text":"[sharp] Small apps need speed.","emotion":"sharp"},
+  {"character":"Alex","text":"[intense] Maintainability matters long-term.","emotion":"intense"},
+  {"character":"Sarah","text":"[confident] JavaScript is flexible and fast.","emotion":"confident"},
+  {"character":"Alex","text":"[provocative] Safety or freedom?","emotion":"provocative"}
+]

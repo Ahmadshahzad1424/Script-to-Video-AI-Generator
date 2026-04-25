@@ -1,0 +1,9 @@
+[
+  {"character":"Alex","text":"[confident] SQL ensures structured, reliable data.","emotion":"confident"},
+  {"character":"Sarah","text":"[mocking] And slows you with rigid schemas.","emotion":"mocking"},
+  {"character":"Alex","text":"[assertive] Consistency is critical for real systems.","emotion":"assertive"},
+  {"character":"Sarah","text":"[sharp] Flexibility matters in modern apps.","emotion":"sharp"},
+  {"character":"Alex","text":"[intense] Transactions protect your data integrity.","emotion":"intense"},
+  {"character":"Sarah","text":"[confident] NoSQL scales effortlessly.","emotion":"confident"},
+  {"character":"Alex","text":"[challenging] So… structure or scalability?","emotion":"challenging"}
+]

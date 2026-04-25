@@ -1,0 +1,37 @@
+[
+  {
+    "character": "Alex",
+    "text": "[confident] React makes everything easier.",
+    "emotion": "confident"
+  },
+  {
+    "character": "Sarah",
+    "text": "[mocking] Or more complicated than needed.",
+    "emotion": "mocking"
+  },
+  {
+    "character": "Alex",
+    "text": "[explaining] Component-based design scales apps fast.",
+    "emotion": "explaining"
+  },
+  {
+    "character": "Sarah",
+    "text": "[skeptical] Vanilla JavaScript is faster and lighter.",
+    "emotion": "skeptical"
+  },
+  {
+    "character": "Alex",
+    "text": "[assertive] Big apps need structure—React wins.",
+    "emotion": "assertive"
+  },
+  {
+    "character": "Sarah",
+    "text": "[sharp] Small apps? React is overkill.",
+    "emotion": "sharp"
+  },
+  {
+    "character": "Alex",
+    "text": "[provocative] So simplicity or scalability?",
+    "emotion": "provocative"
+  }
+]
