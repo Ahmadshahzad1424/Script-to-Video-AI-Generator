@@ -67,7 +67,7 @@ graph TD
 ├── data/
 │   ├── audio/             # Generated voice assets & manifests
 │   └── videos/            # Final 9:16 vertical outputs
-├── .env                   # Private API Keys (DO NOT SHARE)
+├── .env                   # Private API Keys 
 ├── mass_producer.py       # Batch production entry point
 └── README.md              # Documentation
 ```
