@@ -61,15 +61,17 @@ graph TD
 
 ```text
 ├── engine/                # Core Logic (Brain, Voice, Director)
-├── scripts_to_render/     # Drop your JSON scripts here
-├── background_videos/     # High-energy gameplay footage (.mp4)
-├── characters/            # Alex & Sarah pose folders (.png)
+├── assets/                # Raw Media Assets
+│   ├── background_videos/ # Viral gameplay/satisfying footage
+│   └── characters/        # Alex & Sarah pose folders
+├── scripts/               # Production Scripts
+│   └── scripts_to_render/ # Drop your JSON scripts here
 ├── data/
-│   ├── audio/             # Generated voice assets & manifests
-│   └── videos/            # Final 9:16 vertical outputs
-├── .env                   # Private API Keys 
-├── mass_producer.py       # Batch production entry point
-└── README.md              # Documentation
+│   ├── audio/             # Generated voice assets
+│   └── videos/            # FINAL RENDERED OUTPUT
+├── .env                   # Your private API keys (Hidden)
+├── mass_producer.py       # The Main Factory Script
+└── requirements.txt       # Python dependencies
 ```
 
 ---
@@ -77,10 +79,10 @@ graph TD
 ## 🎨 Asset Management
 
 ### Characters
-Place transparent `.png` character poses in `characters/Alex/` and `characters/Sarah/`. The engine's **Variety Logic** will randomly select different poses for every video to maintain visual interest.
+Place transparent `.png` character poses in `assets/characters/Alex/` and `assets/characters/Sarah/`. The engine's **Variety Logic** will randomly select different poses for every video to maintain visual interest.
 
 ### Backgrounds
-Place vertical or horizontal 9:16 gameplay clips in `background_videos/`. The engine will automatically crop, resize, and speed up footage to match the "High-Energy" viral aesthetic.
+Place vertical or horizontal 9:16 gameplay clips in `assets/background_videos/`. The engine will automatically crop, resize, and stabilize footage to match the "High-Energy" viral aesthetic.
 
 ---
 
