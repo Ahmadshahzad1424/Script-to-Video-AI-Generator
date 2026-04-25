@@ -26,6 +26,19 @@
 
 ---
 
+## 📋 Prerequisites
+
+Before running the engine, ensure you have the following installed:
+
+1.  **Python 3.10+:** [Download here](https://www.python.org/downloads/)
+2.  **FFmpeg:** (Critical for video rendering)
+    -   **Windows:** `winget install ffmpeg`
+    -   **Mac:** `brew install ffmpeg`
+    -   **Linux:** `sudo apt install ffmpeg`
+3.  **Groq API Key:** Obtain a free key from [Groq Console](https://console.groq.com/).
+
+---
+
 ## 🏗️ Technical Architecture
 
 ```mermaid
@@ -41,6 +54,33 @@ graph TD
     I[Character Assets] --> G
     G -->|Render| J[Final 9:16 Video]
 ```
+
+---
+
+## 📁 Project Structure
+
+```text
+├── engine/                # Core Logic (Brain, Voice, Director)
+├── scripts_to_render/     # Drop your JSON scripts here
+├── background_videos/     # High-energy gameplay footage (.mp4)
+├── characters/            # Alex & Sarah pose folders (.png)
+├── data/
+│   ├── audio/             # Generated voice assets & manifests
+│   └── videos/            # Final 9:16 vertical outputs
+├── .env                   # Private API Keys (DO NOT SHARE)
+├── mass_producer.py       # Batch production entry point
+└── README.md              # Documentation
+```
+
+---
+
+## 🎨 Asset Management
+
+### Characters
+Place transparent `.png` character poses in `characters/Alex/` and `characters/Sarah/`. The engine's **Variety Logic** will randomly select different poses for every video to maintain visual interest.
+
+### Backgrounds
+Place vertical or horizontal 9:16 gameplay clips in `background_videos/`. The engine will automatically crop, resize, and speed up footage to match the "High-Energy" viral aesthetic.
 
 ---
 
