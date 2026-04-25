@@ -1,10 +1,10 @@
-# 🎬 Script2Video-AI: Resilient Short-Form Content Factory
+# 🎬 Script-to-Video-AI-Generator: Resilient Short-Form Content Factory
 
 [![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Engine: MoviePy v2](https://img.shields.io/badge/Engine-MoviePy--v2-orange.svg)](https://zulko.github.io/moviepy/)
 
-**Script2Video-AI** (Internal Code: *Nexus Core*) is a high-performance, fully autonomous pipeline designed for mass-producing viral 15-20 second vertical "Short" format tech debates. Engineered for maximum resilience, it features a unique Hybrid TTS architecture that ensures zero production downtime.
+**Script-to-Video-AI-Generator** (Internal Code: *Nexus Core*) is a high-performance, fully autonomous pipeline designed for mass-producing viral 15-20 second vertical "Short" format tech debates. Engineered for maximum resilience, it features a unique Hybrid TTS architecture that ensures zero production downtime.
 
 ---
 
@@ -90,8 +90,8 @@ Place vertical or horizontal 9:16 gameplay clips in `assets/background_videos/`.
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/Ahmadshahzad1424/Script2Video-AI.git
-cd Script2Video-AI
+git clone https://github.com/Ahmadshahzad1424/Script-to-Video-AI-Generator.git
+cd Script-to-Video-AI-Generator
 ```
 
 ### 2. Install Dependencies
