@@ -18,8 +18,9 @@ class VideoDirector:
         self.assets_dir = assets_dir
         self.output_dir = output_dir
         os.makedirs(output_dir, exist_ok=True)
-        self.bg_dir = os.path.join(assets_dir, "background_videos")
-        self.char_dir = os.path.join(assets_dir, "characters")
+        # Paths (Updated for Clean Structure)
+        self.bg_dir = os.path.join(assets_dir, "assets", "background_videos")
+        self.char_dir = os.path.join(assets_dir, "assets", "characters")
         self.WIDTH = 540
         self.HEIGHT = 960
         self.last_bg = None

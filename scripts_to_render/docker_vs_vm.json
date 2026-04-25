@@ -1,9 +1,0 @@
-[
-  {"character":"Alex","text":"[confident] Docker containers are lightweight and fast.","emotion":"confident"},
-  {"character":"Sarah","text":"[skeptical] VMs offer full isolation.","emotion":"skeptical"},
-  {"character":"Alex","text":"[assertive] Containers start in seconds.","emotion":"assertive"},
-  {"character":"Sarah","text":"[sharp] Security matters more than speed.","emotion":"sharp"},
-  {"character":"Alex","text":"[intense] DevOps relies on containers now.","emotion":"intense"},
-  {"character":"Sarah","text":"[confident] Enterprises trust virtual machines.","emotion":"confident"},
-  {"character":"Alex","text":"[challenging] Efficiency or isolation?","emotion":"challenging"}
-]

@@ -42,9 +42,9 @@ def mass_produce_videos(niche: str, days: int = 7):
         speaking_style="expressive"
     )
 
-    # 1. Check for Bulk Manual Scripts
-    manual_dir = "scripts_to_render"
-    manual_files = [f for f in os.listdir(manual_dir) if f.endswith(".json")]
+    # Path to your manually written scripts
+    manual_folder = os.path.join("scripts", "scripts_to_render")
+    manual_files = [f for f in os.listdir(manual_folder) if f.endswith(".json")]
     
     if manual_files:
         safe_print(f"--- Found {len(manual_files)} manual scripts. Switching to BULK MANUAL mode. ---")
@@ -67,7 +67,7 @@ def mass_produce_videos(niche: str, days: int = 7):
         try:
             # Step A: Get Script
             if mode == "MANUAL":
-                with open(os.path.join(manual_dir, topic), "r") as f:
+                with open(os.path.join(manual_folder, topic), "r") as f:
                     script = json.load(f)
             else:
                 script_data = brain.generate_debate(topic, alex, sarah)
@@ -105,8 +105,11 @@ def mass_produce_videos(niche: str, days: int = 7):
 
 if __name__ == "__main__":
     # Auto-sense: Check if we have manual scripts first
-    manual_dir = "scripts_to_render"
-    manual_files = [f for f in os.listdir(manual_dir) if f.endswith(".json")]
+    manual_folder = os.path.join("scripts", "scripts_to_render")
+    if os.path.exists(manual_folder):
+        manual_files = [f for f in os.listdir(manual_folder) if f.endswith(".json")]
+    else:
+        manual_files = []
     
     if manual_files:
         # We have manual scripts, just run them!
